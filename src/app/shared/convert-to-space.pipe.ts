@@ -1,4 +1,4 @@
-import {Pipe, PipeTransform} from "@angular/core";
+import { Pipe, PipeTransform } from '@angular/core';
 
 
 @Pipe({
@@ -7,6 +7,6 @@ import {Pipe, PipeTransform} from "@angular/core";
 
 export class ConvertToSpacePipe implements PipeTransform {
   transform(value: string, character: string): string {
-    return value.replace(character,' ')
+    return value.replace(character, ' ');
   }
 }
